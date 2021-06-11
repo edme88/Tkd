@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    /*background-image: url("images/fondoTKD.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: left;*/
+}
+
+#fondo{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    z-index: -10;
+}
+
+h1{
+    font-family: 'Revalia', cursive;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    background: #fff408;
+    padding: 7px 15px;
+    display:inline-block;
+    transform: skew(-20deg);
+    box-shadow: grey 7px 5px 20px;
+    font-family: 'Revalia', cursive;
+    text-shadow: grey 1px 1px 1px;
+    cursor: pointer;
+}
+
+a:hover{
+    background: #a09608;
+    font-weight: bolder;
+}
+
+a span{
+    display:inline-block;
+    transform: skew(20deg);
+}
+
+section{
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    width: 60%;
+}
