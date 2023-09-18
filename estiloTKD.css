@@ -5,6 +5,12 @@ body{
     background-size: auto;
     background-repeat: no-repeat;
     background-position: left;*/
+    font-family: Calibri, SansSerif;
+    text-align: center;
+}
+
+body.noScroll{
+    overflow: hidden;
 }
 
 #fondo{
@@ -16,7 +22,9 @@ body{
 
 h1{
     font-family: 'Revalia', cursive;
+    font-size: 3em;
     text-align: center;
+    text-shadow: 2px 2px 5px #a09608;
 }
 
 nav{
@@ -32,6 +40,7 @@ a{
     font-family: 'Revalia', cursive;
     text-shadow: grey 1px 1px 1px;
     cursor: pointer;
+    /*border: 2px solid #a19e48;*/
 }
 
 a:hover{
@@ -46,7 +55,25 @@ a span{
 
 section{
     position: absolute;
+    margin: 2em;
     right: 20px;
-    bottom: 0px;
     width: 60%;
+}
+
+.login {
+    background-color: black;
+    color: white;
+    border: 0px;
+    margin: 0px;
+    padding: 5px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    width: 100%;
+    position: fixed;
+}
+
+.submenu a{
+    margin: 5px 0px;
+    background: #ffc508;
 }
