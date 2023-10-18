@@ -8,6 +8,7 @@
           rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/images/icono.png">
     <title>TKD</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 </head>
 <body>
 <img src="images/fondoTKD.png" id="fondo">
@@ -40,15 +41,15 @@
         <legend>Nuevo Taekwondista:</legend>
         <p>
             <label for="nombre">Nombre:</label>
-            <input id="nombre" name="nombre" type="text">
+            <input id="nombre" name="nombre" type="text" maxlength="40">
         </p>
         <p>
             <label for="apellido">Apellido:</label>
-            <input id="apellido" name="nombre" type="text">
+            <input id="apellido" name="nombre" type="text" maxlength="40">
         </p>
         <p>
             <label for="dni">DNI:</label>
-            <input id="dni" name="dni" type="number">
+            <input id="dni" name="dni" type="number" maxlength="8">
         </p>
         <p>
             <label for="fechaNacimiento">Fecha de Nacimiento:</label>
@@ -56,7 +57,7 @@
         </p>
         <p>
             <label for="direccion">Dirección:</label>
-            <input id="direccion" name="direccion" type="text">
+            <input id="direccion" name="direccion" type="text" maxlength="40">
         </p>
         <p>
             <label for="categoria">Categoría</label>
@@ -71,15 +72,15 @@
                 <option>3 Gub - Azul punta Roja</option>
                 <option>2 Gub - Rojo</option>
                 <option>1 Gub - Rojo punta Negra</option>
-                <option>1 Dan</option>
-                <option>2 Dan</option>
-                <option>3 Dan</option>
-                <option>4 Dan</option>
-                <option>5 Dan</option>
-                <option>6 Dan</option>
-                <option>7 Dan</option>
-                <option>8 Dan</option>
-                <option>9 Dan</option>
+                <option>1 Dan - Boo Sabom Nim</option>
+                <option>2 Dan - Boo Sabom Nim</option>
+                <option>3 Dan - Boo Sabom Nim</option>
+                <option>4 Dan - Sabom Nim</option>
+                <option>5 Dan - Sabom Nim</option>
+                <option>6 Dan - Sabom Nim </option>
+                <option>7 Dan - Sajiong Nim</option>
+                <option>8 Dan - Sajiong Nim</option>
+                <option>9 Dan - Sasong Nim</option>
             </select>
         </p>
         <p>
@@ -91,11 +92,11 @@
         </p>
         <p>
             <label for="peso">Peso:</label>
-            <input id="peso" name="peso" type="number">
+            <input id="peso" name="peso" type="number" maxlength="3">
         </p>
         <p>
             <label for="altura">Altura:</label>
-            <input id="altura" name="altura" type="number">
+            <input id="altura" name="altura" type="number" maxlength="3">
         </p>
         <p>
             <label for="genero">Género</label>
@@ -315,33 +316,33 @@
         </p>
         <p>
             <label for="celular">Celular:</label>
-            <input id="celular" name=celular" type="number">
+            <input id="celular" name=celular" type="number" maxlength="20">
         </p>
         <p>
             <label for="email">Email:</label>
-            <input id="email" name=email" type="email">
+            <input id="email" name=email" type="email" maxlength="40">
         </p>
     </fieldset>
     <fieldset>
         <legend>Contacto de Emergencia:</legend>
         <p>
             <label for="nombreContacto">Nombre:</label>
-            <input id="nombreContacto" name="nombreContacto" type="text">
+            <input id="nombreContacto" name="nombreContacto" type="text" maxlength="40">
         </p>
         <p>
             <label for="apellidoContacto">Apellido:</label>
-            <input id="apellidoContacto" name="apellidoContacto" type="text">
+            <input id="apellidoContacto" name="apellidoContacto" type="text" maxlength="40">
         </p>
         <p>
             <label for="vinculo">Vinculo:</label>
-            <input id="vinculo" name="vinculo" type="text">
+            <input id="vinculo" name="vinculo" type="text" maxlength="40">
         </p>
         <p>
             <label for="celularContacto">Celular:</label>
-            <input id="celularContacto" name=celularContacto" type="number">
+            <input id="celularContacto" name=celularContacto" type="number" maxlength="40">
         </p>
     </fieldset>
-    <button type="button">Guardar Datos</button>
+    <button type="button" class="saveForm">Guardar Datos</button>
 </section>
 
 </body>

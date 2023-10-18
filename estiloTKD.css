@@ -77,3 +77,15 @@ section{
     margin: 5px 0px;
     background: #ffc508;
 }
+
+fieldset {
+    background-color: rgba(256,256,256,0.9);
+}
+
+legend {
+    background-color: rgba(256,256,256,0.9);
+}
+
+button.saveForm {
+    margin: 20px;
+}
