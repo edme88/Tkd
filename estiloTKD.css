@@ -71,6 +71,7 @@ section{
     left: 0px;
     width: 100%;
     position: fixed;
+    z-index: 24;
 }
 
 .submenu a{
@@ -88,4 +89,12 @@ legend {
 
 button.saveForm {
     margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid;
 }

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estiloTKD.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Revalia&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/icono.png">
+    <title>TKD</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <script src="js/generic.js"></script>
+</head>
+<body onload="cargarDatos()">
+<img src="images/fondoTKD.png" id="fondo">
+<div class="login">
+    Bienvenida Bu-Sabonim Agustina Aliciardi
+</div>
+
+<h1>Córdoba Taekwondo ITF</h1>
+<nav>
+    <a>
+        <span>Practicantes</span>
+    </a>
+    <a>
+        <span>Dojans</span>
+    </a>
+    <a>
+        <span>Torneos</span>
+    </a>
+    <a>
+        <span>Capacitaciones</span>
+    </a>
+    <div class="submenu">
+        <a href="nuevoTkd.html"><span>Ingresar Nuevo Taekwondista</span></a>
+        <a href="listarTkds.html"><span>Listar Taekwondistas</span></a>
+    </div>
+</nav>
+
+<section>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Dni</th>
+            <th>Categoría</th>
+            <th>Fecha de Nacimiento</th>
+            <th>Instructor</th>
+            <th>Peso</th>
+            <th>Altura</th>
+            <th>Genero</th>
+            <th>Nacionalidad</th>
+            <th>Foto</th>
+            <th>Celular</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody id="taekwondistas">
+        </tbody>
+    </table>
+
+    <button type="button" class="saveForm">Guardar Datos</button>
+</section>
+
+</body>
+</html>
