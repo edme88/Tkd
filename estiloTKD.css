@@ -43,6 +43,11 @@ a{
     /*border: 2px solid #a19e48;*/
 }
 
+a:visited, a:hover, a:active, a:link{
+    color: black;
+    text-decoration: none;
+}
+
 a:hover{
     background: #a09608;
     font-weight: bolder;

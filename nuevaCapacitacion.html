@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estiloTKD.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Revalia&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/icono.png">
+    <title>TKD</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+</head>
+<body>
+<img src="images/fondoTKD.png" id="fondo">
+<div class="login">
+    Bienvenida Bu-Sabonim Agustina Aliciardi
+</div>
+
+<h1>Córdoba Taekwondo ITF</h1>
+<nav>
+    <a href="nuevoTkd.html">
+        <span>Practicantes</span>
+    </a>
+    <a href="nuevoDojan.html">
+        <span>Dojans</span>
+    </a>
+    <a href="nuevoTorneo.html">
+        <span>Torneos</span>
+    </a>
+    <a href="nuevaCapacitacion.html">
+        <span>Capacitaciones</span>
+    </a>
+    <a href="nuevoExamen.html">
+        <span>Exámenes</span>
+    </a>
+    <div class="submenu">
+        <a href="nuevaCapacitacion.html"><span>Nueva Capacitación</span></a>
+        <a href="listarCapacitaciones.html"><span>Listar Capacitaciones</span></a>
+    </div>
+</nav>
+
+<section>
+    <fieldset>
+        <legend>Nueva Capacitación:</legend>
+        <p>
+            <label for="nombreCapacitacion">Nombre de la Capacitación:</label>
+            <input id="nombreCapacitacion" name="nombreCapacitacion" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="descripcionCapacitacion">Descripción de la Capacitación:</label>
+            <input id="descripcionCapacitacion" name="nombreCapacitacion" type="text" maxlength="120">
+        </p>
+        <p>
+            <label for="fecha">Fecha:</label>
+            <input id="fecha" name="fecha" type="date">
+        </p>
+        <p>
+            <label for="hora">Hora:</label>
+            <input id="hora" name="hora" type="time">
+        </p>
+        <p> Direción </p>
+        <p>
+            <label for="calle">Calle:</label>
+            <input id="calle" name="calle" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="ciudad">Ciudad:</label>
+            <input id="ciudad" name="ciudad" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="provincia">Provincia:</label>
+            <input id="provincia" name="provincia" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="costo">Costo:</label>
+            <input id="costo" name="costo" type="number">
+        </p>
+        <p>
+            <label for="publico">Publico Destinatatorio:</label>
+            <input id="publico" name="publico" type="text" maxlength="40">
+        </p>
+    </fieldset>
+    <button type="button" class="saveForm">Guardar Datos</button>
+</section>
+
+</body>
+</html>

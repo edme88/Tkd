@@ -34,33 +34,21 @@
         <span>Exámenes</span>
     </a>
     <div class="submenu">
-        <a href="nuevoDojan.html"><span>Nuevo Dojan</span></a>
-        <a href="listarDojanes.html"><span>Listar Dojanes</span></a>
+        <a href="nuevoExamen.html"><span>Nuevo Exámen</span></a>
+        <a href="listarExamenes.html"><span>Listar Exámenes</span></a>
     </div>
 </nav>
 
 <section>
     <fieldset>
-        <legend>Nuevo Dojan:</legend>
+        <legend>Nuevo Exámen:</legend>
         <p>
-            <label for="nombreSitio">Nombre del Gym/Salón:</label>
-            <input id="nombreSitio" name="nombreSitio" type="text" maxlength="40">
+            <label for="fecha">Fecha:</label>
+            <input id="fecha" name="fecha" type="date">
         </p>
         <p>
-            <label for="direccion">Dirección:</label>
-            <input id="direccion" name="direccion" type="text" maxlength="40">
-        </p>
-        <p>
-            <label for="dias">Días:</label>
-            <input id="dias" name="dias" type="text" maxlength="40">
-        </p>
-        <p>
-            <label for="horario">Horario:</label>
-            <input id="horario" name="horario" type="time">
-        </p>
-        <p>
-            <label for="cuota">Cuota:</label>
-            <input id="cuota" name="cuota" type="number" maxlength="6">
+            <label for="hora">Hora:</label>
+            <input id="hora" name="hora" type="time">
         </p>
         <p>
             <label for="instructor">Instructor a Cargo</label>
@@ -69,9 +57,14 @@
                 <option>Walter Guillermo Burgueño</option>
             </select>
         </p>
+        <p> Direción </p>
         <p>
-            <label for="restriccion">Restricción:</label>
-            <input id="restriccion" name="restriccion" type="text" maxlength="40">
+            <label for="direccion">Dirección:</label>
+            <input id="direccion" name="direccion" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="costo">Costo:</label>
+            <input id="costo" name="costo" type="number">
         </p>
     </fieldset>
     <button type="button" class="saveForm">Guardar Datos</button>
