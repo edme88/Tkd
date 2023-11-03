@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estiloTKD.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Revalia&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/icono.png">
+    <title>TKD</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+</head>
+<body>
+<img src="images/fondoTKD.png" id="fondo">
+<div class="login">
+    Bienvenida Bu-Sabonim Agustina Aliciardi
+</div>
+
+<h1>Córdoba Taekwondo ITF</h1>
+<nav>
+    <a href="nuevoTkd.html">
+        <span>Practicantes</span>
+    </a>
+    <a href="nuevoDojan.html">
+        <span>Dojans</span>
+    </a>
+    <a href="nuevoTorneo.html">
+        <span>Torneos</span>
+    </a>
+    <a>
+        <span>Capacitaciones</span>
+    </a>
+    <a>
+        <span>Exámenes</span>
+    </a>
+    <div class="submenu">
+        <a href="nuevoDojan.html"><span>Nuevo Dojan</span></a>
+        <a href="listarDojanes.html"><span>Listar Dojanes</span></a>
+    </div>
+</nav>
+
+<section>
+    <fieldset>
+        <legend>Nuevo Dojan:</legend>
+        <p>
+            <label for="nombreSitio">Nombre del Gym/Salón:</label>
+            <input id="nombreSitio" name="nombreSitio" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="direccion">Dirección:</label>
+            <input id="direccion" name="direccion" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="dias">Días:</label>
+            <input id="dias" name="dias" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="horario">Horario:</label>
+            <input id="horario" name="horario" type="time">
+        </p>
+        <p>
+            <label for="cuota">Cuota:</label>
+            <input id="cuota" name="cuota" type="number" maxlength="6">
+        </p>
+        <p>
+            <label for="instructor">Instructor a Cargo</label>
+            <select id="instructor" name="instructor">
+                <option>Maximiliano Pedrotti</option>
+                <option>Walter Guillermo Burgueño</option>
+            </select>
+        </p>
+        <p>
+            <label for="restriccion">Restricción:</label>
+            <input id="restriccion" name="restriccion" type="text" maxlength="40">
+        </p>
+    </fieldset>
+    <button type="button" class="saveForm">Guardar Datos</button>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estiloTKD.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Revalia&family=Roboto&display=swap"
+          rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/icono.png">
+    <title>TKD</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+</head>
+<body>
+<img src="images/fondoTKD.png" id="fondo">
+<div class="login">
+    Bienvenida Bu-Sabonim Agustina Aliciardi
+</div>
+
+<h1>Córdoba Taekwondo ITF</h1>
+<nav>
+    <a href="nuevoTkd.html">
+        <span>Practicantes</span>
+    </a>
+    <a href="nuevoDojan.html">
+        <span>Dojans</span>
+    </a>
+    <a href="nuevoTorneo.html">
+        <span>Torneos</span>
+    </a>
+    <a>
+        <span>Capacitaciones</span>
+    </a>
+    <a>
+        <span>Exámenes</span>
+    </a>
+    <div class="submenu">
+        <a href="nuevoTorneo.html"><span>Nuevo Torneo</span></a>
+        <a href="listarTorneos.html"><span>Listar Torneos</span></a>
+    </div>
+</nav>
+
+<section>
+    <fieldset>
+        <legend>Nuevo Torneo:</legend>
+        <p>
+            <label for="nombreTorneo">Nombre del Torneo:</label>
+            <input id="nombreTorneo" name="nombreTorneo" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="fecha">Fecha:</label>
+            <input id="fecha" name="fecha" type="date">
+        </p>
+        <p>
+            <label for="hora">Hora:</label>
+            <input id="hora" name="hora" type="time">
+        </p>
+        <p>
+            <label for="direccion">Dirección:</label>
+            <input id="direccion" name="direccion" type="text" maxlength="40">
+        </p>
+        <p>
+            <label for="costo">Costo:</label>
+            <input id="costo" name="costo" type="number">
+        </p>
+        <p> Categoría de Competición:
+            <label>
+                <input type="checkbox" id="tul_individual" value="tul_individual"/> Tul individual
+            </label>
+            <label>
+                <input type="checkbox" id="lucha_individual" value="lucha_individual"/> Lucha individual
+            </label>
+            <label>
+                <input type="checkbox" id="tul_equipo" value="tul_equipo"/> Tul Equipo
+            </label>
+            <label>
+                <input type="checkbox" id="lucha_equipo" value="lucha_equipo"/> Lucha Equipo
+            </label>
+            <label>
+                <input type="checkbox" id="tul_aplicado" value="tul_aplicado"/> Tul aplicado
+            </label>
+            <label>
+                <input type="checkbox" id="defensa_personal" value="defensa_personal"/> Rutina de Defensa Personal
+            </label>
+            <label>
+                <input type="checkbox" id="rotura_potencia" value="rotura_potencia"/> Rotura de Potencia
+            </label>
+            <label>
+                <input type="checkbox" id="rotura_habilidad" value="rotura_habilidad"/> Rotura de Habilidad
+            </label>
+        </p>
+        <p> Categoría de Competidores:
+            <label>
+                <input type="checkbox" id="infantiles" value="infantiles"/> Infantiles
+            </label>
+            <label>
+                <input type="checkbox" id="cadetes" value="cadetes"/> Cadetes (11-13)
+            </label>
+            <label>
+                <input type="checkbox" id="juveniles" value="juveniles"/> Juveniles (14-17)
+            </label>
+            <label>
+                <input type="checkbox" id="adultos" value="adultos"/> Adultos (18-34)
+            </label>
+            <label>
+                <input type="checkbox" id="veteranos_plata" value="veteranos_plata"/> Veteranos Plata (35-44)
+            </label>
+            <label>
+                <input type="checkbox" id="veteranos_oro" value="veteranos_oro"/> Veteranos Oro (45+)
+            </label>
+        </p>
+        <p>
+            <label for="afiche">Afiche:</label>
+            <input id="afiche" name="afiche" type="file">
+        </p>
+    </fieldset>
+    <button type="button" class="saveForm">Guardar Datos</button>
+</section>
+
+</body>
+</html>
